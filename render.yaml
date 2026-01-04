@@ -3,7 +3,7 @@ services:
     name: apk-detection-system
     runtime: node
     plan: free
-    buildCommand: pip install androguard cryptography && npm install && npm run build
+    buildCommand: ./build.sh
     startCommand: npm start
     envVars:
       - key: NODE_VERSION

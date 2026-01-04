@@ -41,7 +41,7 @@ This guide explains how to deploy the APK Detection System on Render.
 2. **Configure the service**
    - **Name**: `apk-detection-system`
    - **Runtime**: `Node`
-   - **Build Command**: `pip install androguard cryptography && npm install && npm run build`
+   - **Build Command**: `./build.sh`
    - **Start Command**: `npm start`
    - **Plan**: Free (or your preferred plan)
 
